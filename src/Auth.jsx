@@ -19,7 +19,7 @@ export default function Auth({setIsAuth}) {
     return(
         <div className="auth">
             <p>Sign in with <span className="google">Google</span> to continue!</p>
-            <button onClick={signInWithGoogle}>Sing In With Google</button>
+            <button onClick={signInWithGoogle}>Sign In With Google</button>
         </div>
     )
 }
