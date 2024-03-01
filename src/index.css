@@ -180,7 +180,6 @@ form input {
   flex-direction: column;
   align-items: start;
   width: 100%;
-  height: 350px;
   max-height: 350px;
   overflow-y: auto;
   background-color: white;
