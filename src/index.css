@@ -1,0 +1,197 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+@font-face {
+  font-family: "";
+  src: url();
+}
+
+body {
+  font-family: "";
+  background-color: #8E44AD;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.google {
+  color: #333333;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  height: 50px;
+  width: 300px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background-color: #663399;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 5px 7px #4D2873;
+  transition: background-color ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #512e6d; /* New color on hover */
+}
+
+.enter-room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.enter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem
+}
+
+.sign-out {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sign-out-button {
+  height: 50px;
+  width: 300px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background-color: #e74c3c;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 5px 7px 10px #c0392b; 
+}
+
+.sign-out-button:hover {
+  background-color: #c0392b; 
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: 2px solid #663399;
+  border-radius: 0.3rem;
+  transition: border-color 0.3s ease; /* Adding transition for a smooth effect */
+}
+
+input:focus {
+  outline: none;
+  border-color: #512e6d; /* Change border color on focus */
+}
+
+.label {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.enter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-room {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+form {
+  display: flex;
+
+}
+
+form button {
+  font-size: 16px;
+  width: 70px;
+  height: 35px;
+  box-shadow: none;
+}
+
+form input {
+  height: 35px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-height: 350px;
+  overflow-y: auto;
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  border-radius: 0.5rem
+}
+
+.user {
+  font-weight: 600;
+}
+
+.room-name {
+ color: navy;
+}
