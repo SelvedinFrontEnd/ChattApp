@@ -176,6 +176,7 @@ form input {
   max-width: 350px;
   max-height: 70px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .messages {
