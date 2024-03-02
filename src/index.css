@@ -162,9 +162,6 @@ input:focus {
 form {
   display: flex;
   width: 350px;
-  max-width: 350px;
-  max-height: 70px;
-  overflow-y: auto;
 }
 
 form button {
@@ -176,6 +173,9 @@ form button {
 
 form input {
   height: 35px;
+  max-width: 350px;
+  max-height: 70px;
+  overflow-y: auto;
 }
 
 .messages {
