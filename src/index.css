@@ -161,7 +161,7 @@ input:focus {
 
 form {
   display: flex;
-
+  width: 350px;
 }
 
 form button {
